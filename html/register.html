@@ -5,59 +5,47 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
         <title>Planstery</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=cyrillic-ext" rel="stylesheet"/>
+        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+            integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+        <link rel="stylesheet" href="../css/bootstrap-min.css"/>
         <link rel="stylesheet" href="../css/register.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://unpkg.com/vue"></script>
     </head>
     <body>
         <div id="app">
-            <div class="container main">
-                <div class="view">
-                    <div class="text-center">
-                        <div class="pl-inner">
-                            <div class="row">
-                                <div class="logo-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <div class="logo">
-                                        <img class="logo-image" src="../images/logo.svg">
+            <div class="main-container">
+                <div class="wrapper">
+                    <div class="pl-start-container text-center">
+                        <div class="pl-inner ">
+                            <img class="logo-image" src="../images/logo.svg">
+                            <div class="well">
+                                <h1>Welcome!</h1>
+                                <form>
+                                    <div class="input-group">
+                                        <input class="form-control" id="userName" type="text" placeholder="Name">
+                                        <span class="input-group-addon"></span>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                                    <div class="well">
-                                        <h1>Welcome!</h1>
-                                        <form>
-                                            <div class="input-group">
-                                                <input class="form-control" type="text" placeholder="Username">
-                                                <span class="form-group-addon fa fa-user"></span>
-                                            </div>
-                                            <div class="form-group">
-                                                <input class="form-control" type="email" placeholder="Email">
-                                                <span class="form-group-addon fa fa-envelope"></span>
-                                            </div>
-                                            <div class="form-group">
-                                                <input class="form-control" type="password" placeholder="Password">
-                                                <span class="form-group-addon fa fa-lock"></span>
-                                            </div>
-                                            <div class="forgot_pw"></div>
-                                            <button></button>
-                                        </form>
-                                        <div class="login-with"></div>
-                                        <a></a>
-                                        <a></a>
+                                    <div class="input-group">
+                                        <input class="form-control" id="userEmail" type="text" placeholder="Email">
+                                        <span class="input-group-addon"></span>
                                     </div>
-                                </div>
+                                    <div class="input-group">
+                                        <input class="form-control" id="userPassword" type="text" placeholder="Password">
+                                        <span class="input-group-addon"></span>
+                                    </div>
+                                </form>
+                                <!--<div class="login-with"></div>-->
+                                <!--<a></a>-->
+                                <!--<a></a>-->
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="../js/bootstrap-min.js"></script>
         <script src="../js/register.js"></script>
     </body>
 </html>

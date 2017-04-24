@@ -3,6 +3,7 @@ html, body {
     height: 100%;
     overflow: hidden;
 }
+
 body {
     background-image: url("../images/register_background.png");
 }
@@ -12,22 +13,32 @@ input[type="text"], input[type="email"], input[type="search"], input[type="passw
     -moz-appearance: none;
 }
 
+.main-container {
+    height: 100%;
+    overflow: auto;
+}
+
+.wrapper {
+    width: 310px;
+    margin: 0 auto;
+}
+
+.pl-start-container {
+    position: absolute;
+    display: inline-block;
+}
+
+.text-center {
+    text-align: center;
+}
+
 .pl-inner {
     max-width: 310px;
     margin: 0 auto;
 }
 
-.logo-wrapper {
-    padding-bottom: 5px;
-}
-
-.logo {
-    padding-top: 20px;
-}
-
 .logo-image {
-    display: block;
-    margin: 0 auto;
+    margin: 20px 0 5px 0;
 }
 
 .pl-inner .well {
@@ -39,6 +50,7 @@ input[type="text"], input[type="email"], input[type="search"], input[type="passw
     -webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.25);
     box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.25);
     margin-bottom: 0;
+    border: 1px solid #e3e3e3;
 }
 
 .pl-inner h1 {
@@ -64,7 +76,6 @@ input[type="text"], input[type="email"], input[type="search"], input[type="passw
 
 .pl-inner input:focus{
     box-shadow: none;
-    /* Rectangle 10: */
     border: 1px solid #4A4A4A;
     border-right: none;
 }
@@ -74,14 +85,20 @@ input[type="text"], input[type="email"], input[type="search"], input[type="passw
     border-left: none;
 }
 
+.pl-start-box input.ng-invalid.ng-dirty{
+    border: 1px solid #E75A2F;
+    border-right: none;
+}
+
+.pl-start-box input.ng-invalid.ng-dirty + .input-group-addon{
+    border: 1px solid #E75A2F;
+    border-left: none;
+    color: #E75A2F;
+}
+
 .pl-inner .input-group {
     margin-bottom: 3px;
     margin-top: 0;
-    padding-top: 10px;
-}
-
-.pl-inner span {
-    display: inline;
 }
 
 .pl-inner .input-group-addon {
@@ -94,8 +111,6 @@ input[type="text"], input[type="email"], input[type="search"], input[type="passw
     line-height: 16px;
 }
 
-.text-center {
-    text-align: center;
-}
+
 
 
