@@ -1,0 +1,179 @@
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    background-image: url("../images/register_background.png");
+}
+
+input[type="text"], input[type="email"], input[type="search"], input[type="password"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.main-container {
+    height: 100%;
+    overflow: auto;
+}
+
+.wrapper {
+    width: 310px;
+    margin: 0 auto;
+}
+
+.pl-start-container {
+    position: absolute;
+    display: inline-block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.pl-inner {
+    max-width: 310px;
+    margin: 0 auto;
+}
+
+.logo-image {
+    margin: 20px 0 5px 0;
+}
+
+.pl-inner .well {
+    padding: 10px;
+    border-radius: 2px;
+    width: 310px;
+    background: rgba(241, 241, 241, 0.25);
+    -moz-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.25);
+    margin-bottom: 0;
+    border: 1px solid #e3e3e3;
+}
+
+.pl-inner h1 {
+    margin-top: 0;
+    font-weight: 800;
+    font-size: 24px;
+    color: rgba(59, 76, 86, 0.5);
+    line-height: 22px;
+}
+
+.pl-inner input {
+    height: 40px;
+    border-radius: 2px;
+    background: #FFFFFF;
+    border: 1px solid rgba(150,150,150,0.40);
+    border-right: 0;
+    box-shadow: none;
+    font-weight: 500;
+    font-size: 13px;
+    color: #4A4A4A;
+    line-height: 22px;
+}
+
+.pl-inner input:focus{
+    box-shadow: none;
+    border: 1px solid #4A4A4A;
+    border-right: none;
+}
+
+.pl-inner input:focus + .input-group-addon{
+    border: 1px solid #4A4A4A;
+    border-left: none;
+}
+
+.pl-start-box input.ng-invalid.ng-dirty{
+    border: 1px solid #E75A2F;
+    border-right: none;
+}
+
+.pl-start-box input.ng-invalid.ng-dirty + .input-group-addon{
+    border: 1px solid #E75A2F;
+    border-left: none;
+    color: #E75A2F;
+}
+
+.pl-inner .input-group {
+    margin-bottom: 3px;
+    margin-top: 0;
+}
+
+.pl-inner .input-group-addon {
+    font-family: 'fontello';
+    background: white;
+    border-radius: 1px 2px 2px 1px;
+    border-color: rgba(150,150,150,0.40);
+    font-size: 16px;
+    color: #C5C5C5;
+    line-height: 16px;
+}
+
+.pl-inner .input-group, .pl-inner .btn, .pl-inner .alert{
+    margin-bottom: 3px;
+    margin-top: 0;
+}
+
+.pl-inner .btn{
+    border-radius: 2px;
+    background: #E7762F;
+    border: 1px solid rgba(0,0,0,0.05);
+    -moz-box-shadow:    0px 1px 0px 0px rgba(0,0,0,0.10);
+    -webkit-box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.10);
+    box-shadow:         0px 1px 0px 0px rgba(0,0,0,0.10);
+    font-size: 13px;
+    color: #FFFFFF;
+    line-height: 22px;
+}
+.pl-inner .btn:hover, .pl-inner .btn:focus, .pl-inner .btn:active {
+    background: #e76d22;
+    border: 1px solid rgba(0,0,0,0.05);
+}
+
+.pl-inner .login-with{
+    font-size: 12px;
+    color: #9E9E9E;
+    line-height: 14px;
+    margin: 5px;
+}
+
+.pl-inner .btn-google, .pl-inner .btn-facebook{
+    text-align: left;
+    padding-left: 10px;
+}
+
+.pl-inner .btn-google{
+    background: #D94B38;
+    border-radius: 2px;
+}
+
+.pl-inner .btn-google:hover, .pl-inner .btn-google:focus, .pl-inner .btn-google:active{
+    background: #d94028;
+}
+
+.pl-inner .btn-facebook{
+    background: #3B597D;
+    margin-bottom: 0;
+}
+
+.pl-inner .btn-facebook:hover, .pl-inner .btn-facebook:focus, .pl-inner .btn-facebook:active{
+    background: #33547d;
+}
+
+.pl-inner {
+    font-size: 13px;
+    color: rgba(0,0,0,0.31);
+    line-height: 22px;
+}
+
+.pl-inner a{
+    font-weight: 800;
+    color: rgba(0,0,0,0.31);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+

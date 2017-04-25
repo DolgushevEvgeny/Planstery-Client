@@ -5,11 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
         <title>Planstery</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-            integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
-        <link rel="stylesheet" href="../css/bootstrap-min.css"/>
-        <link rel="stylesheet" href="../css/register.css"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+            integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/style.css"/>
         <script src="https://unpkg.com/vue"></script>
     </head>
     <body>
@@ -34,10 +32,23 @@
                                         <input class="form-control" id="userPassword" type="text" placeholder="Password">
                                         <span class="input-group-addon"></span>
                                     </div>
+                                    <button type="submit" class="btn btn-default btn-block">Register</button>
                                 </form>
-                                <!--<div class="login-with"></div>-->
-                                <!--<a></a>-->
-                                <!--<a></a>-->
+                                <div class="login-with">or login with</div>
+                                <button type="button" class="btn btn-google btn-block">
+                                    <div>
+                                        Google
+                                    </div>
+                                </button>
+                                <button type="button" class="btn btn-facebook btn-block">
+                                    <div>
+                                        Facebook
+                                    </div>
+                                </button>
+                            </div>
+                            <div class="pl-sub-inner">
+                                Already registered?
+                                <a>Log in</a>
                             </div>
                         </div>
                     </div>
